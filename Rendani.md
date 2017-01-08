@@ -25,3 +25,7 @@ MLP | 38492 |
 ## 06-01-2017
 I then documented the results in the latex document. In addition to this I also wrote the the discussion of results and other observations.
 
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
