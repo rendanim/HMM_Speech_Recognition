@@ -13,7 +13,7 @@ I was assigned the task of implementation of the trained models on new proteomes
 ## 05-01-2017
 Wrote code to get predictions on the new proteomes. Initally I had incoorectly created new vectorizers for the new datasets. I corrected this after some errors from the `predict()` methods. The predicted peptides in Human were as follows:
 |Classifier | Predicted Peptides Signal|
-----------------------------------------
+------------|----------------------------
 KNN | 46124 
 SVC -Linear | 30143 
 SVC -RBF | 41710 
