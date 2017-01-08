@@ -12,20 +12,16 @@ The paper foused on a Hidden Markov Models and Artificial Neural Networks. The b
 I was assigned the task of implementation of the trained models on new proteomes. Initailly there were some doubts as to which proteomes where right ones - which filters to put on biomart. After some googling i settled on the ftp site for biomart http://www.ensembl.org/info/data/ftp/index.html. The species I chose were `Homo Sepien` and `Mus musculus`.
 ## 05-01-2017
 Wrote code to get predictions on the new proteomes. Initally I had incoorectly created new vectorizers for the new datasets. I corrected this after some errors from the `predict()` methods. The predicted peptides in Human were as follows:
-|Classifier | Predicted Peptides Signal|
-------------|----------------------------
+|Classifier | Predicted Peptides Signal
+------------|--------------------------
 KNN | 46124 
 SVC -Linear | 30143 
 SVC -RBF | 41710 
 Decision Tree | 45830 
 Random Forest | 48916 
 Adaboost | 49505  
-MLP | 38492 |
+MLP | 38492 
 
 ## 06-01-2017
 I then documented the results in the latex document. In addition to this I also wrote the the discussion of results and other observations.
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
